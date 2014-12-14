@@ -1,0 +1,198 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family:ciclefina;
+}
+
+@font-face {
+    font-family: Painterz;
+    src: url(./Painterz.ttf);
+}
+
+@font-face{
+	font-family:ciclefina;
+	src:url(./ciclefina.ttf);
+}
+
+@font-face{
+	font-family:ciclebold;
+	src:url(./ciclebold.ttf);
+}
+
+#info_b /* Id de la barre de header (login etc) */
+{
+	height: 30px;
+	background-image: url(../img/bg_info_b.png);
+	z-index: 2000;
+	color: #FF0000;
+	text-align: center;
+}
+
+#login_f
+{
+	text-align: center;
+}
+
+#login_f input
+{
+	border: 1px solid #D2D2D2;
+	border-radius: 4px;
+	box-shadow: 0 0 0 1px #F0F5F7 inset;
+	font-size: 12px;
+	padding: 0 2px;
+	height: 21px;
+	margin-top: 1px;
+	color: #212121;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+#login_f input[type="submit"]
+{
+	width: 90px;
+}
+
+.banner
+{
+	color:#212121;
+	text-align: center;
+	font-family: Painterz;
+	font-size: 60px;
+	text-shadow: 0 0 50px #00B4FF;
+	text-decoration: none;
+}
+
+.banner:hover
+{
+	color:#00B4FF;
+	text-align: center;
+	font-family: Painterz;
+	font-size: 60px;
+	text-decoration: none;
+}
+
+.title_b
+{
+	text-align: center;
+	color:grey;
+}
+
+body
+{
+	background:url("http://marshall-design.com/codepen/abs6.jpg");
+}
+
+#main
+{
+	text-align:center;
+	margin-top:10%;
+}
+
+#main input
+{
+	margin:10px;
+}
+
+.welcome
+{
+	text-align:center;
+}
+
+.sucess
+{
+	text-align:center;
+	font-weight: bold;
+	color:green;
+	color:#349e92;
+	text-decoration: underline;
+}
+
+.error
+{
+	text-align:center;
+	font-weight: bold;
+	color:red;
+	color:#349e92;
+	text-decoration: underline;
+}
+
+#profile
+{
+	text-align:center;
+	border:solid 1px #349e92;
+	width:500px;
+	padding:50px;
+	-moz-box-shadow: 0 0 5px 5px black;
+	-webkit-box-shadow: 0 0 5px 5px black;
+	box-shadow: 0 0 30px 10px black;
+	color:#FFFFFF;
+}
+
+#profile a
+{
+	color:#349e92;
+	text-decoration: none;
+}
+
+
+
+.info_title
+{
+	font-family:ciclebold;
+}
+
+.status
+{
+	margin-top: 0;
+	margin-right: 0;
+}
+
+#members_t
+{
+	text-align:center;
+	border:solid 1px #349e92;
+	width:500px;
+	padding:50px;
+	-moz-box-shadow: 0 0 5px 5px black;
+	-webkit-box-shadow: 0 0 5px 5px black;
+	box-shadow: 0 0 30px 10px black;
+	color:#FFFFFF;
+}
+
+#members_t th
+{
+	text-align:center;
+	padding:10px;
+}
+
+#members_t td
+{
+	
+	text-align:center;
+}
+
+#members_t a
+{
+	color:#349e92;
+	text-decoration: none;
+}
+
+.page_n
+{
+	margin:2px;
+	width:3px;
+	padding:5px;
+	border:solid 1px #349e92
+}
+
+h2
+{
+	color:#349e92;
+}
+
+h4
+{
+	color:#349777;
+}
